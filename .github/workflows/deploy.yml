@@ -20,4 +20,5 @@ jobs:
       - run: echo $ANDROID_HOME
       - run: echo $JAVA_HOME
       - run: bubblewrap updateConfig --jdkPath=echo $JAVA_HOME --androidSdkPath=echo $ANDROID_HOME
+      - run: cat ~/.bubblewrap/config.json
       - run: bubblewrap update 
