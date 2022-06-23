@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2019 Google Inc. All Rights Reserved.
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9         http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<!--
+18 The "package" attribute is rewritten by the Gradle build with the value of applicationId.
+19     It is still required here, as it is used to derive paths, for instance when referring
+20     to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
+21     application, the package attribute will need to reflect the correct path in order to use
+22     the abbreviated format.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="org.outlier.collegesuccess_pwa.twa"
+26    android:versionCode="1000"
+27    android:versionName="1000" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="19"
+30-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml
+31        android:targetSdkVersion="31" />
+31-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml
+32
+33    <uses-feature
+33-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:28:5-77
+34        android:name="org.chromium.arc"
+34-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:28:19-50
+35        android:required="true" />
+35-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:28:51-74
+36
+37    <queries>
+37-->[com.google.androidbrowserhelper:androidbrowserhelper:2.3.0] /Users/umairx97/.gradle/caches/transforms-2/files-2.1/572def1352afcb56982bb86acf89682d/androidbrowserhelper-2.3.0/AndroidManifest.xml:26:5-34:15
+38        <intent>
+38-->[com.google.androidbrowserhelper:androidbrowserhelper:2.3.0] /Users/umairx97/.gradle/caches/transforms-2/files-2.1/572def1352afcb56982bb86acf89682d/androidbrowserhelper-2.3.0/AndroidManifest.xml:27:9-33:18
+39            <action android:name="android.intent.action.VIEW" />
+39-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:127:17-68
+39-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:127:25-66
+40
+41            <category android:name="android.intent.category.BROWSABLE" />
+41-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:129:17-77
+41-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:129:27-75
+42
+43            <data android:scheme="https" />
+43-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:130:17-131:54
+43-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:130:23-45
+44        </intent>
+45    </queries>
+46
+47    <application
+47-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:31:5-170:19
+48        android:name="org.outlier.collegesuccess_pwa.twa.Application"
+48-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:32:9-35
+49        android:allowBackup="true"
+49-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:33:9-35
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.1.0] /Users/umairx97/.gradle/caches/transforms-2/files-2.1/e601daed4ba62929db8b322b2974c8f8/core-1.1.0/AndroidManifest.xml:24:18-86
+51        android:icon="@mipmap/ic_launcher"
+51-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:34:9-43
+52        android:label="@string/appName"
+52-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:35:9-40
+53        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+53-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:37:9-105
+54        android:supportsRtl="true"
+54-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:39:9-35
+55        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+55-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:40:9-68
+56        <meta-data
+56-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:42:9-44:58
+57            android:name="asset_statements"
+57-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:43:13-44
+58            android:resource="@string/assetStatements" />
+58-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:44:13-55
+59        <meta-data
+59-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:47:13-49:58
+60            android:name="web_manifest_url"
+60-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:48:17-48
+61            android:value="@string/webManifestUrl" />
+61-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:49:17-55
+62        <meta-data
+62-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:52:9-54:52
+63            android:name="twa_generator"
+63-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:53:13-41
+64            android:value="@string/generatorApp" />
+64-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:54:13-49
+65
+66        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+66-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:59:13-63:24
+66-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:59:23-104
+67            <meta-data
+67-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:60:13-62:53
+68                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+68-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:61:17-83
+69                android:value="@string/launchUrl" />
+69-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:62:17-50
+70        </activity>
+71        <activity
+71-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:66:9-135:20
+72            android:name="org.outlier.collegesuccess_pwa.twa.LauncherActivity"
+72-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:66:19-50
+73            android:alwaysRetainTaskState="true"
+73-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:67:13-49
+74            android:exported="true"
+74-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:69:13-36
+75            android:label="@string/launcherName" >
+75-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:68:13-49
+76            <meta-data
+76-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:70:13-71:53
+77                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+77-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:70:24-85
+78                android:value="@string/launchUrl" />
+78-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:71:17-50
+79            <meta-data
+79-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:73:13-75:58
+80                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+80-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:74:17-83
+81                android:resource="@color/colorPrimary" />
+81-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:75:17-55
+82            <meta-data
+82-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:77:13-79:61
+83                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+83-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:78:17-87
+84                android:resource="@color/navigationColor" />
+84-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:79:17-58
+85            <meta-data
+85-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:81:13-83:65
+86                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+86-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:82:17-92
+87                android:resource="@color/navigationColorDark" />
+87-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:83:17-62
+88            <meta-data
+88-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:85:13-87:68
+89                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+89-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:86:17-84
+90                android:resource="@color/navigationDividerColor" />
+90-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:87:17-65
+91            <meta-data
+91-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:89:13-91:72
+92                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+92-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:90:17-89
+93                android:resource="@color/navigationDividerColorDark" />
+93-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:91:17-69
+94            <meta-data
+94-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:93:13-94:54
+95                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+95-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:93:24-95
+96                android:resource="@drawable/splash" />
+96-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:94:17-52
+97            <meta-data
+97-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:96:13-97:60
+98                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+98-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:96:24-104
+99                android:resource="@color/backgroundColor" />
+99-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:97:17-58
+100            <meta-data
+100-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:99:13-100:71
+101                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+101-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:99:24-105
+102                android:value="@integer/splashScreenFadeOutDuration" />
+102-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:100:17-69
+103            <meta-data
+103-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:102:13-103:60
+104                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+104-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:102:24-97
+105                android:value="@string/providerAuthority" />
+105-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:103:17-58
+106            <meta-data
+106-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:105:13-97
+107                android:name="android.app.shortcuts"
+107-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:105:24-60
+108                android:resource="@xml/shortcuts" />
+108-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:105:61-94
+109            <meta-data
+109-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:107:13-108:56
+110                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+110-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:107:24-91
+111                android:value="@string/fallbackType" />
+111-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:108:17-53
+112            <meta-data
+112-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:114:13-115:54
+113                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+113-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:114:24-92
+114                android:value="@string/orientation" />
+114-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:115:17-52
+115
+116            <intent-filter>
+116-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:121:13-124:29
+117                <action android:name="android.intent.action.MAIN" />
+117-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:122:17-69
+117-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:122:25-66
+118
+119                <category android:name="android.intent.category.LAUNCHER" />
+119-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:123:17-77
+119-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:123:27-74
+120            </intent-filter>
+121            <intent-filter android:autoVerify="true" >
+121-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:126:13-132:29
+121-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:126:28-53
+122                <action android:name="android.intent.action.VIEW" />
+122-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:127:17-68
+122-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:127:25-66
+123
+124                <category android:name="android.intent.category.DEFAULT" />
+124-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:128:17-76
+124-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:128:27-73
+125                <category android:name="android.intent.category.BROWSABLE" />
+125-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:129:17-77
+125-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:129:27-75
+126
+127                <data
+127-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:130:17-131:54
+128                    android:host="@string/hostName"
+128-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:131:21-52
+129                    android:scheme="https" />
+129-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:130:23-45
+130            </intent-filter>
+131        </activity>
+132        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+132-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:137:9-90
+132-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:137:19-87
+133        <activity
+133-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:139:9-140:62
+134            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+134-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:139:19-97
+135            android:configChanges="orientation|screenSize" />
+135-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:140:13-59
+136
+137        <provider
+137-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:142:9-150:20
+138            android:name="androidx.core.content.FileProvider"
+138-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:143:13-62
+139            android:authorities="@string/providerAuthority"
+139-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:144:13-60
+140            android:exported="false"
+140-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:146:13-37
+141            android:grantUriPermissions="true" >
+141-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:145:13-47
+142            <meta-data
+142-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:147:13-149:53
+143                android:name="android.support.FILE_PROVIDER_PATHS"
+143-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:148:17-67
+144                android:resource="@xml/filepaths" />
+144-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:149:17-50
+145        </provider>
+146
+147        <service
+147-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:152:9-167:19
+148            android:name="org.outlier.collegesuccess_pwa.twa.DelegationService"
+148-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:153:13-46
+149            android:enabled="@bool/enableNotification"
+149-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:154:13-55
+150            android:exported="@bool/enableNotification" >
+150-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:155:13-56
+151            <meta-data
+151-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:158:17-160:73
+152                android:name="android.support.customtabs.trusted.SMALL_ICON"
+152-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:159:21-81
+153                android:resource="@drawable/ic_notification_icon" />
+153-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:160:21-70
+154
+155            <intent-filter>
+155-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:163:13-166:29
+156                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+156-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:164:17-105
+156-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:164:25-103
+157
+158                <category android:name="android.intent.category.DEFAULT" />
+158-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:128:17-76
+158-->/Users/umairx97/Umair/bubblewrap-deploy/app/src/main/AndroidManifest.xml:128:27-73
+159            </intent-filter>
+160        </service>
+161    </application>
+162
+163</manifest>

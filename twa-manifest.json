@@ -1,0 +1,38 @@
+{
+  "packageId": "org.outlier.collegesuccess_pwa.twa",
+  "host": "collegesuccess-pwa.outlier.org",
+  "name": "Outlier",
+  "launcherName": "Outlier",
+  "display": "standalone",
+  "themeColor": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#161618",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://collegesuccess-pwa.outlier.org/avatar-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/Users/umairx97/Umair/bubblewrap-deploy/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1000",
+  "appVersionCode": 1000,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://collegesuccess-pwa.outlier.org/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": true,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1000"
+}
