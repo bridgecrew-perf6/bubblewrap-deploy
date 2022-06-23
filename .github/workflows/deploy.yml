@@ -19,7 +19,6 @@ jobs:
       - run: sdkmanager platform-tools
       - run: echo $ANDROID_HOME
       - run: echo $JAVA_HOME
-      - run: cat ~/.bubblewrap/config.json
       - run: bubblewrap updateConfig --jdkPath=$JAVA_HOME --androidSdkPath=$ANDROID_HOME
       - run: cat ~/.bubblewrap/config.json
       - run: bubblewrap update 
