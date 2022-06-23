@@ -1,4 +1,0 @@
-#Fri Jun 24 00:30:28 PKT 2022
-base.0=/Users/umairx97/Umair/bubblewrap-deploy/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

@@ -18,8 +18,8 @@
     "path": "/Users/umairx97/Umair/bubblewrap-deploy/android.keystore",
     "alias": "android"
   },
-  "appVersionName": "1000",
-  "appVersionCode": 1000,
+  "appVersionName": "1001",
+  "appVersionCode": 1001,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://collegesuccess-pwa.outlier.org/manifest.json",
@@ -34,5 +34,5 @@
   "fingerprints": [],
   "additionalTrustedOrigins": [],
   "retainedBundles": [],
-  "appVersion": "1000"
+  "appVersion": "1001"
 }
