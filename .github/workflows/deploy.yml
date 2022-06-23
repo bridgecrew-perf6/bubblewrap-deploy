@@ -15,4 +15,5 @@ jobs:
           java-package: jdk
           architecture: x64
       - run: npm install -g @bubblewrap/cli
-      - run: bubblewrap update --jdkPath=echo $JAVA_HOME
+      - run: bubblewrap updateConfig --jdkPath=echo $JAVA_HOME
+      - run: bubblewrap update 
