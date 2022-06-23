@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: malinskiy/action-android/install-sdk@release/0.1.2
       - uses: actions/setup-node@v3
         with:
           node-version: 14
@@ -15,5 +16,8 @@ jobs:
           java-package: jdk
           architecture: x64
       - run: npm install -g @bubblewrap/cli
-      - run: bubblewrap updateConfig --jdkPath=echo $JAVA_HOME
+      - run: sdkmanager platform-tools
+      - run: echo $ANDROID_HOME
+      - run: echo $JAVA_HOME
+      - run: bubblewrap updateConfig --jdkPath=echo $JAVA_HOME --androidSdkPath=echo $ANDROID_HOME
       - run: bubblewrap update 
